@@ -1,0 +1,200 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Nemanja Ilic</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body>
+			
+		<!-- Header -->
+			<header id="header">
+				<div class="logo"><a href="https://spos.info/" id="home" class="ml3">Honey and bees <span>by Nemanja Ilic</span></a></div>
+				
+
+
+				<div class = "menu">
+					<ul>
+					<li><a class="active" href="#home">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#gallery">Gallery</a></li>
+					<li><a href="#facts">Facts</a></li>
+					
+				  </ul>
+				</div>
+
+			</header>
+		
+			
+		<!-- Main -->
+			<section id="main">
+				<div class="inner">
+
+				<!-- One -->
+					<section id="one" class="wrapper style1">
+
+						<div class="image fit flush">
+							<img src="images/pic02.png" alt="" height="650px" />
+						</div>
+						<header class="special" id="about">
+							<h2 class="ml2"> What is a honeybee?</h2>
+							<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+							<script>
+								var textWrapper = document.querySelector('.ml2');
+									textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+									anime.timeline({loop: true})
+										.add({
+											targets: '.ml2 .letter',
+											scale: [4,1],
+											opacity: [0,2],
+											translateZ: 0,
+											easing: "easeOutExpo",
+											duration: 950,
+											delay: (el, i) => 70*i
+										}).add({
+											targets: '.ml2',
+											opacity: 0,
+											duration: 800,
+											easing: "easeOutExpo",
+											delay: 800
+										});	
+
+							</script>
+						</header>
+						<div class="content">
+							
+						<p>
+							Honeybees are flying insects, and close relatives of wasps and ants. They are found on every continent on earth, except for Antarctica.
+							Bees of all varieties live on nectar and pollen. Without bees, pollination would be difficult and time consuming - it is estimated that one-third of the human food supply depends on insect pollination. Bees have a long, straw-like tongue called a probiscus that allows them to drink the nectar from deep within blossoms. Bees are also equipped with two wings, two antennae, and three segmented body parts (the head, the thorax, and the abdomen).  Honeybees are social insects that live in colonies.  
+						</p>
+						<p> hive population consists of a single queen, a few hundred drones, and thousands of worker bees.
+								
+								The honeybees we know and love here at Honeybee Centre forage for nectar and pollen from flowering plants.  They use the nectar collected  to create our favourite sweet treat - honey!  When carrying the nectar back to the hive, their bodies break down the complex sucrose of the nectar into two simple sugars, fructose and glucose. Tucking it neatly into a honeycomb cell, the bees will then beat their wings furiously over top of this syrupy sweet liquid to fan out the moisture and thicken the substance. When it is complete, the bees will cap that cell with beeswax, sealing the perfected honey for consumption later on.
+							</p>
+						</div>
+					</section>
+
+				<!-- Two -->
+					<section  class="wrapper style2">
+						<header  id="gallery">
+							<h2>Gallery</h2>
+							
+						</header>
+						<div class="content">
+							<div class="gallery">
+								<div>
+									<div class="image fit flush">
+										<a href="images/pic03.jpg"><img src="images/pic03.jpg" alt="" /></a>
+									</div>
+								</div>
+								<div>
+									<div class="image fit flush">
+										<a href="images/pic01.jpg"><img src="images/pic01.jpg" alt="" /></a>
+									</div>
+								</div>
+								<div>
+									<div class="image fit flush">
+										<a href="images/pic04.jpg"><img src="images/pic04.jpg" alt="" /></a>
+									</div>
+								</div>
+								<div>
+									<div class="image fit flush">
+										<a href="images/pic05.jpg"><img src="images/pic05.jpg" alt="" /></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+				<!-- Three -->
+					<section class="wrapper" id="facts">
+						<div class="spotlight">
+							<div class="image flush"><img src="images/pic06.jpg" alt=""  /></div>
+							<div class="inner">
+								<h3 class="bee">Queen bee</h3>
+								<p>The term queen bee is typically used to refer to an adult, mated female that lives in a honey bee colony or hive; a female bee with fully developed reproductive organs, she is usually the mother of most, if not all, of the bees in the beehive.
+								</p>
+							</div>
+						</div>
+						<div class="spotlight alt">
+							<div class="image flush"><img src="images/pic07.jpg" alt="" /></div>
+							<div  class="inner">
+								<h3>Propolis drops</h3>
+								<p>The composition of propolis can vary depending on the location of the bees and what trees and flowers they have access to. For example, propolis from Europe won’t have the same chemical makeup as propolis from Brazil. </p>
+							</div>
+						</div>
+						<div class="spotlight">
+							<div class="image flush"><img src="images/pic08.jpg" alt="" /></div>
+							<div class="inner">
+								<h3>Honey</h3>
+								<p>	Honey has high levels of monosaccharides, fructose, and glucose, and it contains about 70 to 80 percent sugar, which provides its sweetness. Honey also has antiseptic and antibacterial properties. Modern medical science has managed to find uses for honey in chronic wound management and combating infection.
+								</p>
+							</div>
+						</div>
+					</section>
+
+				
+
+				</div>
+			</section>
+
+
+			
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="container">
+					<ul class="icons">
+						
+						<li><a href="https://www.facebook.com/ilic.nemanja18400/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="https://www.instagram.com/prodajamedaa/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="https://mail.google.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+						<li><a href="https://www.outlook.com" class="fa fa-user icon"><span class="label">Form</span></a></li>
+					</ul>
+				</div>
+				<div class="copyright">
+					&copy; Untitled. All rights reserved.  Design <a href="#">Nemanja Ilic</a>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+			<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+			<script>
+				
+				var mybutton = document.getElementById("myBtn");
+				
+				
+				window.onscroll = function() {scrollFunction()};
+				
+				function scrollFunction() {
+				  if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+					mybutton.style.display = "block";
+				  } else {
+					mybutton.style.display = "none";
+				  }
+				}
+				
+				
+				function topFunction() {
+				  document.body.scrollTop = 0;
+				  document.documentElement.scrollTop = 0;
+				}
+				</script>
+
+
+
+
+
+
+
+
+	</body>
+</html>
